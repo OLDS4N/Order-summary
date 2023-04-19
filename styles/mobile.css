@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+
+    --cor1: hsl(225, 100%, 94%);
+    --cor2: hsl(245, 75%, 52%);
+    --cor3: hsl(225, 100%, 98%);
+    --cor4: hsl(224, 23%, 55%);
+    --cor5: hsl(223, 47%, 23%);
+
+    --Red-Hat: 'Red Hat Display'
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;  
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--Red-Hat);
+    font-size: 16px;    
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.block-img img{
+    background-size: cover;
+    height: 160px;
+    width: 100%;
+}
+
+.block-details {
+    padding: 0 24px 37px 24px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.4em;
+    color: var(--cor5);
+    padding-top: 38px;
+    font-weight: 900;
+}
+
+.details {
+    color: var(--cor4);
+    padding-top: 24px;
+    font-size: 0.97em;
+}
+
+.block-plan {
+    width: 100%;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    padding: 16px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.block-price {
+    line-height: 22px;
+    margin-left: 19px;
+    font-size: 14.5px;
+}
+
+.plan {
+    font-weight: 900;
+    color: var(--cor5);
+}
+
+.price {
+    color: var(--cor4);
+    font-weight: 400;
+}
+
+.change {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--cor5);
+    margin-left: 51px;
+}
+
+.change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--cor2);
+    color: white;
+    padding: 19px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+}
+
+.cancel-btn {
+    font-size: 15px;
+    color: var(--cor4);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cancel-btn:hover {
+    color: var(--cor5);
+}
+
+
